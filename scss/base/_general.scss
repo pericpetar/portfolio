@@ -1,0 +1,37 @@
+*:focus {
+    outline: none;
+}
+html {
+    font-size: 62.5%;
+}
+@include main; 
+
+.container {
+    max-width: 2400px; 
+    margin: 0 auto;
+    @media only screen and(max-width: 2400px) {
+        max-width: 2000px;
+    }
+    @media only screen and(max-width: 2000px) {
+        max-width: 1800px;    
+    }
+    @media only screen and(max-width: 1800px) {
+        max-width: 1500px;    
+        padding: 0 30px;
+    }
+    @media only screen and(max-width: 768px) {
+        padding: 0 15px;
+    }
+}
+body {
+    background-color: $background_color;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
