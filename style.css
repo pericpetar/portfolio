@@ -162,7 +162,7 @@ a {
 
 .num {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   right: 0;
 }
 
@@ -347,6 +347,9 @@ a {
 @media only screen and (max-width: 768px) {
   .description-hero5 {
     bottom: 15px;
+  }
+  .num {
+    bottom: 10px;
   }
 }
 
